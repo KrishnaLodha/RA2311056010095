@@ -35,13 +35,11 @@ async function fetchVehicles() {
 
 function solveKnapsack(budget, vehicles) {
     const n = vehicles.length;
-    // DP array optimization (using 1D arrays to save memory if needed, but 2D is fine for standard budgets)
     const dp = Array(n + 1).fill().map(() => Array(budget + 1).fill(0));
     const keep = Array(n + 1).fill().map(() => Array(budget + 1).fill(false));
 
     for (let i = 1; i <= n; i++) {
         const v = vehicles[i - 1];
-        // Ensure duration is int
         const weight = Math.floor(v.Duration);
         const value = v.Impact;
 
