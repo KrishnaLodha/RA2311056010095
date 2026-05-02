@@ -4,7 +4,7 @@ A comprehensive backend system engineered for scale, reliability, and algorithmi
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Overview](#-overview)
 - [Project Architecture](#%EF%B8%8F-project-architecture)
 - [Implementation Phases](#-implementation-phases)
@@ -17,12 +17,12 @@ A comprehensive backend system engineered for scale, reliability, and algorithmi
 
 ---
 
-## 📖 Overview
+## Overview
 This project was developed as a multi-phase backend evaluation focusing on clean code, modular architecture, and optimization. It spans across multiple domains including RESTful API development, asynchronous message queueing, caching strategies, and solving NP-hard resource allocation problems using Dynamic Programming.
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```mermaid
 graph TD
@@ -36,7 +36,7 @@ graph TD
 
 ---
 
-## 🚀 Implementation Phases
+## Implementation Phases
 
 ### Phase 1: Logging Middleware
 **Location:** `/logging_middleware`
@@ -75,7 +75,7 @@ An algorithmic solution to a resource allocation problem.
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
@@ -109,7 +109,7 @@ node index.js
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 The Phase 3 microservice exposes the following core endpoints:
 
