@@ -1,4 +1,4 @@
-# 🚀 Campus Hiring Evaluation - Backend Engineering Track
+# Backend Engineering Track
 
 A comprehensive backend system engineered for scale, reliability, and algorithmic efficiency. This repository encompasses custom NPM packages, system architecture design, an Express.js microservice, and dynamic programming algorithms.
 
