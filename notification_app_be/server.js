@@ -27,7 +27,7 @@ db.serialize(() => {
     )`);
     db.run(`CREATE INDEX idx_student_unread ON notifications(student_id, is_read, created_at DESC)`);
     
-    db.run(`INSERT INTO students (id, name, email) VALUES (1042, 'Krishna Lodha', 'kl8868@srmsti.edu.in')`);
+    db.run(`INSERT INTO students (id, name, email) VALUES (1042, 'Krishna Lodha', 'kl8868@srmist.edu.in')`);
 });
 
 app.use((req, res, next) => {
