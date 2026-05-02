@@ -1,0 +1,20 @@
+=== Depot 1 ===
+Budget (Hours): 60
+Max Impact: 119
+Selected Tasks: 16
+
+=== Depot 2 ===
+Budget (Hours): 135
+Max Impact: 169
+Selected Tasks: 29
+
+=== Depot 3 ===
+Budget (Hours): 188
+Max Impact: 174
+Selected Tasks: 33
+
+=== Depot 4 ===
+Budget (Hours): 97
+Max Impact: 151
+Selected Tasks: 22
+
